@@ -31,7 +31,7 @@ Alert, Button, Collapse, Tooltip 四个组件的演示可以通过以下步骤�
 packages/docs/demo
 
 
-要展示这些组件，请将相应的 Demo 复制到 `play` 目录下的 `app` 文件夹中。
+要展示这些组件，请将相应的 Demo 复制到 `play` 目录下的 `app` 文件中。
 
 ---
 
