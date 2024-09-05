@@ -23,7 +23,7 @@ packages/docs/Components
 Alert, Button, Collapse, Tooltip 四个组件的演示可以通过以下步骤进行：
 
 1. 进入 `play` 目录。
-2. 运行 Storybook 以查看演示。
+2. 运行 Storybook 以查看演示（使用Storybook前请在根目录使用pnpm build进行一次打包）。
 
 ### 其他组件演示
 
