@@ -1,0 +1,34 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.dom.json",
+    "compilerOptions": {
+      "target": "ES2020",
+      "useDefineForClassFields": true,
+      "module": "ESNext",
+      "lib": ["ES2020", "DOM", "DOM.Iterable"],
+      "skipLibCheck": true,
+      "moduleResolution": "bundler",
+      "allowImportingTsExtensions": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "preserve",
+      "jsxImportSource": "vue",
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noFallthroughCasesInSwitch": true,
+      "types": ["node"],
+      "baseUrl": "./",
+      "paths": {
+        "@toy-element/components":["./packages/components"]
+      }
+    },
+    "include": [
+      "packages/core/index.ts",
+      "packages/hooks/**/*.ts",
+      "packages/utils/**/*.ts",
+      "packages/components/**/*.ts",
+      "env.d.ts"
+    ],
+    "exclude": ["packages/components/vitest.config.ts"]
+  }
